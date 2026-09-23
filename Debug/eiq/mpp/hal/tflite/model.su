@@ -1,0 +1,7 @@
+../eiq/mpp/hal/tflite/model.cpp:95:10:uint8_t* GetTensorData(TfLiteTensor*, mpp_tensor_dims_t*, mpp_tensor_type_t*)	8	static
+../eiq/mpp/hal/tflite/model.cpp:50:10:status_t MODEL_Init(const void*, int)	32	static
+../eiq/mpp/hal/tflite/model.cpp:84:10:status_t MODEL_RunInference()	8	static
+../eiq/mpp/hal/tflite/model.cpp:95:10:uint8_t* GetTensorData(TfLiteTensor*, mpp_tensor_dims_t*, mpp_tensor_type_t*)	8	static
+../eiq/mpp/hal/tflite/model.cpp:122:10:uint8_t* MODEL_GetInputTensorData(mpp_tensor_dims_t*, mpp_tensor_type_t*)	16	static
+../eiq/mpp/hal/tflite/model.cpp:129:10:uint8_t* MODEL_GetOutputTensorData(mpp_tensor_dims_t*, mpp_tensor_type_t*, int)	16	static
+../eiq/mpp/hal/tflite/model.cpp:138:6:void MODEL_ConvertInput(uint8_t*, mpp_tensor_dims_t*, mpp_tensor_type_t, float, float)	16	static

@@ -1,0 +1,13 @@
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:179:13:board_set_cs_pin	0	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:184:13:board_set_rs_pin	0	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:722:22:HAL_DisplayDev_McuLcdST7796S_Getbufdesc	16	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:456:22:HAL_DisplayDev_McuLcdST7796S_Init	128	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:189:13:board_flexio_transfer_callback	16	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:555:22:HAL_DisplayDev_McuLcdST7796S_Deinit	8	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:241:17:hal_lcd_write_memory	32	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:219:17:hal_lcd_write_command_params	16	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:200:17:hal_lcd_write_command	16	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:566:22:HAL_DisplayDev_McuLcdST7796S_Start	40	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:633:22:HAL_DisplayDev_McuLcdST7796S_Stop	8	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:670:22:HAL_DisplayDev_McuLcdST7796S_Blit	32	static
+../eiq/mpp/hal/hal_display_mculcd_st7796s.c:748:5:HAL_DisplayDev_McuLcdST7796S_setup	0	static

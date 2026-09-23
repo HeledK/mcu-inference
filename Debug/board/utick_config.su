@@ -1,0 +1,3 @@
+../board/utick_config.c:24:13:UTickCallback	0	static
+../board/utick_config.c:29:6:vConfigureTimerForRunTimeStats	8	static
+../board/utick_config.c:41:15:vGetTimerForRunTimeStats	0	static

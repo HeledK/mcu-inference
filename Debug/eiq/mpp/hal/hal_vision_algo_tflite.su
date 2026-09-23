@@ -1,0 +1,5 @@
+../eiq/mpp/hal/hal_vision_algo_tflite.c:206:27:HAL_VisionAlgoDev_TFLite_Run	24	static
+../eiq/mpp/hal/hal_vision_algo_tflite.c:192:27:HAL_VisionAlgoDev_TFLite_Deinit	8	static
+../eiq/mpp/hal/hal_vision_algo_tflite.c:239:27:HAL_VisionAlgoDev_TFLite_getBufDesc	24	static
+../eiq/mpp/hal/hal_vision_algo_tflite.c:111:27:HAL_VisionAlgoDev_TFLite_Init	32	static
+../eiq/mpp/hal/hal_vision_algo_tflite.c:275:5:hal_inference_tflite_setup	0	static

@@ -1,0 +1,9 @@
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:75:13:ezh_camera_callback	0	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:241:21:HAL_CameraDev_EzhOv7670_Dequeue	24	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:270:21:HAL_CameraDev_EzhOv7670_Enqueue	8	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:79:21:HAL_CameraDev_EzhOv7670_Init	88	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:202:21:HAL_CameraDev_EzhOv7670_Deinit	8	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:215:21:HAL_CameraDev_EzhOv7670_Start	8	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:228:21:HAL_CameraDev_EzhOv7670_Stop	8	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:180:21:HAL_CameraDev_EzhOv7670_Getbufdesc	32	static
+../eiq/mpp/hal/hal_camera_ezh_ov7670.c:289:5:HAL_CameraDev_EzhOv7670_setup	0	static

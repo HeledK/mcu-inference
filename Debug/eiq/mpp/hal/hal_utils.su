@@ -1,0 +1,9 @@
+../eiq/mpp/hal/hal_utils.c:41:6:LOGE	164	static
+../eiq/mpp/hal/hal_utils.c:68:6:LOGI	0	static
+../eiq/mpp/hal/hal_utils.c:85:6:LOGD	0	static
+../eiq/mpp/hal/hal_utils.c:91:5:setup_graphic_dev	32	static
+../eiq/mpp/hal/hal_utils.c:123:5:setup_display_dev	32	static
+../eiq/mpp/hal/hal_utils.c:152:5:setup_camera_dev	32	static
+../eiq/mpp/hal/hal_utils.c:184:5:setup_static_image_elt	0	static
+../eiq/mpp/hal/hal_utils.c:198:10:calc_checksum	4	static
+../eiq/mpp/hal/hal_utils.c:220:6:swap_2_bytes	0	static

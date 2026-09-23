@@ -1,0 +1,37 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/mpu_wrappers_v2_asm.c \
+../freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.c \
+../freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c 
+
+C_DEPS += \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/mpu_wrappers_v2_asm.d \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.d \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.d 
+
+OBJS += \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/mpu_wrappers_v2_asm.o \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.o \
+./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/%.o: ../freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/%.c freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: MCU C Compiler'
+	arm-none-eabi-gcc -std=gnu99 -D__NEWLIB__ -DCPU_MCXN947VDF -DCPU_MCXN947VDF_cm33 -DCPU_MCXN947VDF_cm33_core0 -DRTOS_HEAP_SIZE=110 -DconfigGENERATE_RUN_TIME_STATS=1 -DSDK_DEBUGCONSOLE_UART -DARM_MATH_CM33 -D__FPU_PRESENT=1 -DSDK_I2C_BASED_COMPONENT_USED=1 -DTF_LITE_STATIC_MEMORY -DMCUXPRESSO_SDK -DSDK_OS_FREE_RTOS -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\source" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\video" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\drivers" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\lcdc" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\freertos\freertos-kernel\portable\GCC\ARM_CM33_NTZ\non_secure" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\mpp\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\mpp\hal\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\freertos\freertos-kernel\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\third_party\flatbuffers\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\third_party\gemmlowp" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\component\lists" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\component\uart" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\device" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\startup" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\utilities" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\tensorflow\lite\micro\kernels\neutron" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\third_party\ruy" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\CMSIS" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\third_party\neutron\common\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\eiq\tensorflow-lite\third_party\neutron\driver\include" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\source\models\ultraface_slim_quant_int8" -I"C:\UTAR stuf\Y2S3\FYP 1\Exercises for acclimatization\Lab5 Project files\board" -O3 -fno-common -g3 -gdwarf-4 -Wall -fmessage-length=0 -funsigned-char -Wno-strict-aliasing -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -fmacro-prefix-map="$(<D)/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__NEWLIB__ -fstack-usage -specs=nano.specs -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
+clean: clean-freertos-2f-freertos-2d-kernel-2f-portable-2f-GCC-2f-ARM_CM33_NTZ-2f-non_secure
+
+clean-freertos-2f-freertos-2d-kernel-2f-portable-2f-GCC-2f-ARM_CM33_NTZ-2f-non_secure:
+	-$(RM) ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/mpu_wrappers_v2_asm.d ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/mpu_wrappers_v2_asm.o ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.d ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/port.o ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.d ./freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.o
+
+.PHONY: clean-freertos-2f-freertos-2d-kernel-2f-portable-2f-GCC-2f-ARM_CM33_NTZ-2f-non_secure
+

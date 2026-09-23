@@ -1,0 +1,1 @@
+../source/models/ultraface_slim_quant_int8/ultraface_output_postproc.c:81:9:ULTRAFACE_ProcessOutput	72	static

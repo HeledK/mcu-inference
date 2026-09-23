@@ -1,0 +1,4 @@
+../source/camera_ultraface_view.c:300:13:app_task	392	static
+../source/camera_ultraface_view.c:238:5:mpp_event_listener	176	static
+../source/camera_ultraface_view.c:182:5:main	32	static
+../source/camera_ultraface_view.c:210:6:boxes_to_rects	64	static

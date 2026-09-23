@@ -1,0 +1,4 @@
+../board/hal/hal_frdmmcxn947.c:27:5:hal_gfx_setup	0	static
+../board/hal/hal_frdmmcxn947.c:44:5:hal_display_setup	0	static
+../board/hal/hal_frdmmcxn947.c:59:5:hal_camera_setup	0	static
+../board/hal/hal_frdmmcxn947.c:64:6:HAL_DCACHE_CleanInvalidateByRange	0	static
